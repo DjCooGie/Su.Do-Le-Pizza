@@ -13,9 +13,6 @@ $(document).ready(function () {
     });
   }, 1200)
 
- 
 
-
-  
 
 });
