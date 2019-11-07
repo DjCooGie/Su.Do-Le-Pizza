@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
+@import url("../css/bootstrap.css");
+@import url("../css/fonts.css");
+
+
+/******* Whole page *******/
+/*************************/
+
+html {
+  background-image: url("../media/Piotr\ Gregorczyk\ Photography\ -\ still\ life….jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  margin: 3%;
+  background-color: transparent;
+  border-radius: 1rem;
+}
+
+
+
+/******* Nav bar *******/
+/**********************/
+
+nav {
+  background-color: black; 
+   transition: background-color 0.2s ease;  
+}
+
+nav > ul {
+  text-align:right;
+}
+
+nav > ul > li {
+  display:inline-block;
+  margin-right: 3%;
+  font-size: 20px;
+}
+
+nav > ul > li > a {
+  text-transform:uppercase;
+  text-decoration:none;
+  color: rgb(235, 102, 217);
+}
+
+ nav > ul > li > a:hover {
+  background:transparent;
+  color:green;
+  padding: 10px;
+  text-decoration: underline dotted white;
+  font-size: large;
+  
+ }  
+
+h1 {
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 1%;
+  color: rgb(190, 27, 109);
+}
+
+.p {
+  margin-top: 0.5%;
+  text-align: center;
+  color: rgb(58, 143, 90);
+  font-family: 'Damion', cursive;
+  font-size: 30px;
+}
+
+
+
+/******* Landing page *******/
+/***************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:400px) {
+  .p  {
+    text-align: right;
+    /* display: none; */
+  }
+}
