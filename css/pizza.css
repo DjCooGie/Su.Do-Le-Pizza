@@ -10,10 +10,11 @@ html {
   background-image: url("../media/Piotr\ Gregorczyk\ Photography\ -\ still\ life….jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 body {
-  margin: 3%;
+  margin: 5%;
   background-color: transparent;
   border-radius: 1rem;
 }
@@ -26,6 +27,7 @@ body {
 nav {
   background-color: black; 
    transition: background-color 0.2s ease;  
+   width: 100%;
 }
 
 nav > ul {
@@ -34,21 +36,21 @@ nav > ul {
 
 nav > ul > li {
   display:inline-block;
-  margin-right: 3%;
+  margin-right: 5%;
   font-size: 20px;
 }
 
 nav > ul > li > a {
   text-transform:uppercase;
   text-decoration:none;
-  color: rgb(235, 102, 217);
+  color: rgb(241, 154, 82);
 }
 
  nav > ul > li > a:hover {
   background:transparent;
-  color:green;
+  color:white;
   padding: 10px;
-  text-decoration: underline dotted white;
+  text-decoration:none;
   font-size: large;
   
  }  
@@ -57,7 +59,7 @@ h1 {
   position: absolute;
   margin-top: 1%;
   margin-left: 1%;
-  color: rgb(190, 27, 109);
+  color: rgb(204, 167, 185);
 }
 
 .p {
@@ -72,6 +74,42 @@ h1 {
 
 /******* Landing page *******/
 /***************************/
+
+
+#landing-page{
+  font-size: 20px;
+  position: fixed;
+  height: 100%;
+  overflow: scroll;
+}
+.home{
+  margin-top: 25%;
+  text-align: center;
+  color: black;
+  /* font-size: 30px; */
+  border: 1px transparent;
+  padding:2%;
+  background-color: rgb(241, 228, 208);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
