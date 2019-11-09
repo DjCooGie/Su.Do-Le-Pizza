@@ -19,6 +19,12 @@ $(document).ready(function () {
     });
   }, 1200)
 
+  setInterval(function () {
+    $("#infor").fadeIn(function () {
+      $(this).fadeOut(1800);
+    });
+  }, 1700)
+
 
 
 
