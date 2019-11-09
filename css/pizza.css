@@ -99,7 +99,7 @@ h1 {
 /******* Menu *******/
 /*******************/
 
- .card-title{
+.card-title{
   text-align: center;
   color: black;
 }
@@ -116,9 +116,73 @@ h1 {
   text-decoration-style: double;
 }
 
+#make {
+  text-align: center;
+}
+
+
+/******* Order *******/
+/*******************/
+
+td,th{
+  font-size: 20px;
+  color: white;
+}
+
+.order-overlay{
+  color: white;
+  padding-top: 2%;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-left: 2%;
+  margin-right:0%;
+  padding-bottom: 20px;
+  padding-left: 0.5%;
+  border-radius: 0.2rem;
+}
+
+#size, #topps {
+  border: 1px solid rgba(255, 255, 255, 0.144);
+  padding: 2%;
+
+}
+
+.order-overlay button {
+  color: rgb(236, 192, 156);
+  font-size: 20px;
+  font-style: italic;
+}
+
+.order-overlay #forder {
+  border: 1px solid rgba(255, 255, 255, 0.191);
+  padding: 5%;
+}
+
+.table th{
+  border: 1px solid transparent;
+}
+
+.choice, .delivery {
+  display: none;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* .choise{
+  display: none;
+  padding-left: 2%;
+  padding-right: 2%;
+} */
 
 
 
