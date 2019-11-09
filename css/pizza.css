@@ -3,8 +3,12 @@
 @import url("../css/fonts.css");
 
 
-/******* Whole page *******/
+/******* Entire page *******/
 /*************************/
+
+* {
+  scroll-behavior: smooth;
+}
 
 html {
   background-image: url("../media/Piotr\ Gregorczyk\ Photography\ -\ still\ life….jpeg");
@@ -18,7 +22,6 @@ body {
   background-color: transparent;
   border-radius: 1rem;
 }
-
 
 
 /******* Nav bar *******/
@@ -82,20 +85,36 @@ h1 {
   height: 100%;
   overflow: scroll;
 }
+
 .home{
   margin-top: 25%;
   text-align: center;
   color: black;
-  /* font-size: 30px; */
   border: 1px transparent;
   padding:2%;
   background-color: rgb(241, 228, 208);
 }
 
 
+/******* Menu *******/
+/*******************/
 
+ .card-title{
+  text-align: center;
+  color: black;
+}
 
+.col-md-4{
+  border-radius: 10%;
+  padding: 5px;
+ }
 
+#menu h3 {
+  text-align: center;
+  font-weight: 600;
+  text-decoration:underline;
+  text-decoration-style: double;
+}
 
 
 
