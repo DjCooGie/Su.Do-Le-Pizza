@@ -6,12 +6,53 @@
 
 $(document).ready(function () {
 
-// Blinking paragraph
+// Blinking elements
   setInterval(function () {
     $(".blink").fadeOut(function () {
-      $(this).fadeIn();
+      $(this).fadeIn(1500);
     });
   }, 1200)
+
+  setInterval(function () {
+    $("#logo").fadeIn(function () {
+      $(this).fadeOut(1500);
+    });
+  }, 1200)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
