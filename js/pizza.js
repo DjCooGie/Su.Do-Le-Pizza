@@ -110,8 +110,7 @@ $(document).ready(function () {
         $("div.choice").hide();
         alert("Kindly select  Pizza size and crust");
       } else {
-        // $("button.order").hide();
-        // $("#infor").hide();
+  
         $("div.choice").slideDown(1200);
       }
 
