@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Le-Pizza</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/pizza.js"></script>
     <link rel="stylesheet" type="text/css" href="css/pizza.css">
@@ -18,9 +19,9 @@
             
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <div class="p blink"><p>Delicious. Quality. Convenient.</p></div>
-              <li><a href="#home">Home</a></li>
+              <li style="font-size: 15px;"><a href="#home"><i class="fa fa-home fa-1x"></i> Home</a></li>
               <li><a href="#about">About</a></li>
-              <li><a href="#menu">Menu</a></li>
+              <li><a href="#menu"> Menu</a></li>
               <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
@@ -147,7 +148,7 @@
             
             </div>
             <br>  
-            
+
             <!-- order section -->
             <div class="container-fluid order" id="order">
               <div class="order-overlay">
@@ -174,21 +175,14 @@
                         <option value="Pepperoni Cheese">Pepperoni Cheese</option>
                       </select>
 
+
+           
                       <!-- size -->
                       <div id="size">
                       <label for="size" style="text-decoration:dotted underline;">Select Size</label><br>
-                      <div class="custom-control custom-checkbox custom-control-inline">
-                        <input type="checkbox" class="custom-control-input" id="Small" value="Small" name="size">
-                        <label class="custom-control-label" for="Small">Small</label>
-                      </div><br>
-                      <div class="custom-control custom-checkbox custom-control-inline">
-                        <input type="checkbox" class="custom-control-input" id="Medium" value="Medium" name="size">
-                        <label class="custom-control-label" for="Medium">Medium</label>
-                      </div><br>
-                      <div class="custom-control custom-checkbox custom-control-inline">
-                        <input type="checkbox" class="custom-control-input" id="Large" value="Large" name="size">
-                        <label class="custom-control-label" for="Large">Large</label>
-                      </div>
+                        <input type="checkbox" name="myCheckbox" value="small" onclick="selectOnlyThis(this)"> Small_Kshs. 600 <br>
+                        <input type="checkbox" name="myCheckbox" value="medium" onclick="selectOnlyThis(this)"> Medium_Kshs. 900 <br>
+                        <input type="checkbox" name="myCheckbox" value="large" onclick="selectOnlyThis(this)"> Large_Kshs. 1200 <br>                        
                       </div>
                       
 
@@ -231,7 +225,7 @@
                       </div>
                       </div>
                       <br>
-                      <button type="submit" class="btn btn-secondary bg-secondary proceed">Order</button>
+                      <button type="submit" class="btn btn-secondary bg-secondary order">Order</button>
             
                     </form>
               
@@ -272,7 +266,7 @@
 
                         <p id="piztotal"></p>
                         <p id="totalcash"></p>
-                        <p id="deliveryfee">Delivery fee Kshs. 150</p>
+                        <p id="deliveryfee">Delivery fee Kshs. 200</p>
                         <p id="lefinalesms"></p>
                       </div>
                       <button class="btn btn-secondary  bg-secondary addPizza">Add Pizza</button>
@@ -300,10 +294,9 @@
             </div>
 
         </div>
-        
-
-
         <br>
+
+        <!-- conctacts section -->
         <div id="contacts">
           <div class="container-fluid" id="contact">
 
@@ -314,6 +307,7 @@
             <div class="row" id="details">
               <div class="col-md-6">
                 <h3 style="text-decoration: wavy underline;"><strong>Find Us</strong></h3>
+                <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
                 <p>Along the Ngong Road,</p>
                 <p>GreenHouse Mall,</p>
                 <p>Rudra Plaza(second floor).</p>
@@ -321,9 +315,10 @@
              
               <div class="col-md-6">
                 <h3 style="text-decoration: wavy underline;"><strong>Contact Us</strong></h3>
-                <p>sudopizzas@gmail.com</p>
-                <p>Tel: 0200201020</p>
-                <p>twitter:</p>
+                <br>
+                <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="https://mail.google.com/"> sudopizzas@gmail.com</a></p>
+                <p><i class="fa fa-volume-control-phone "></i> 0200201020</p>
+                <p><i class="fa fa-twitter"></i><a href="https://twitter.com/login?lang=en"> @sudolepizza</a></p>
               </div>
             </div>
             <br>
