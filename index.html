@@ -156,111 +156,91 @@
               <div class="controls-top text-center" id="Order-now">
                 <h2>Make an order</h2>
               </div><br>
-              <div class="row">
-              <div class="col-sm-3">
-                <label for="select">Select Pizza</label>
-                <select class="browser-default custom-select custom-select-md mb-3 name" id="name">
-                  <option selected value="0">your pizza</option>
-                  <option value="0">Margherita</option>
-                  <option value="0">Greek Style</option>
-                  <option value="0">Chicago Style</option>
-                  <option value="0">Chicken Bacon</option>
-                  <option value="0">Barbecue Chicken</option>
-                  <option value="0">Pepperoni Cheese</option>
-                </select>
-              </div>
-              <div class="col-sm-3">
-                <div id="size">
-                  <label for="select">Select Size</label>
-                  <select class="browser-default custom-select custom-select-md mb-3 name" id="name">
-                    <option selected value="0">your size</option>
-                    <option value="600">~ Small</option>
-                    <option value="900">~ Medium</option>
-                    <option value="1200">~ Large</option>
-                  </select>
-                  </div>
-              </div>
-              <div class="col-sm-3">
-                <label for="select">Select Crust</label>
-                <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-                  <option selected value="0">your crust</option>
-                  <option value="200">Flatbread</option>
-                  <option value="300">Stuffed</option>
-                  <option value="400">Neopolitan</option>
-                </select>
-              </div>
-              <div class="col-sm-3">
-                <label for="select">Select Topping</label>
-                <select class="browser-default custom-select custom-select-md mb-3" id="crust">
-                  <option selected value="0">your topping</option>
-                  <option value="100">Raspberry</option>
-                  <option value="100">Sausage</option>
-                  <option value="100">Black-Olives</option>
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+            
+                <label for="">Select Size</label>
+                <select class="form-control size">
+                  <option label="Small" value="600">Small</option>
+                  <option label="Medium" value="900">Medium</option>
+                  <option label="Large" value="1200">Large</option>
                 </select>
               </div>
               
-              </div><br>
-              <div class="row">
-                <div class="col-sm-10">
-                <button type="submit"id="btnorder" class="btn btn-secondary bg-secondary order">Order</button>
-                </div>
-              </div><br><br>
+              <div class="col-md-4 col-sm-12">
+                <label for="">Select Crust</label>
+                <select class="form-control crust">
+                  <option label="Flatbread" value="200">Flatbread</option>
+                  <option label="Stuffed" value="300">Stuffed</option>
+                  <option label="Neopolitan" value="400">Neopolitan</option>
+                </select>
+            
+              </div>
 
-              <!-- order confirmation -->
-              <div id="confo" class="row">
-                <div class="col-sm-10">
-
-                  <div class="choice">
+              <div class="col-md-4 col-sm-12">
+                <label for="">Select Topping</label>
+                <select class="form-control toppings">
+                  <option label="Raspberry" value="100">Raspberry</option>
+                  <option label="Sausage" value="100">Sausage</option>
+                  <option label="Black-Olives" value="100">Black-Olives</option>
+                </select>
+              
+              </div>
+            </div>
+            </div>
+            
+            <br>
+            <div class="text-center">
+              <button class="btn btn-secondary order" type="submit">Order</button>
+            </div>
+            <br>
+            
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Number of Pizza</th>
+                  <th scope="col">Pizza Size</th>
+                  <th scope="col">Toppings</th>
+                  <th scope="col">Crust</th>
+                  <th scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody id="pizza">
+                <tr>
+                  <th scope="row">1</th>
+                  <td id="size"></td>
+                  <td id="toppings"></td>
+                  <td id="crust"></td>
+                  <td id="total"></td>
+                </tr>
+              </tbody>
+            </table>
+            
+            <div class="additional-buttons">
+              <div class="text-center">
+                <button class="btn btn-secondary add-pizza" type="submit">Add Pizza</button>
+                <button class="btn btn-secondary check-out" type="submit">Checkout</button>
+                <br><br>
+                <div class="additional-info">
+                  <h3 style="text-decoration: none;">Your total bill is: <span></span> (add Kshs. 200 on delivery)</h3><br>
                   
-                    <div id="your-orders">
-                      <table class="table table-sm">
-                        <em><h4 style="text-align: center;">Your new order is:</h4></em><br>
-                        <thead>
-                          <tr>
-                            <th scope="col">Pizza</th>
-                            <th scope="col">Size</th>
-                            <th scope="col">Crust</th>
-                            <th scope="col">Topping</th>
-                            <th scope="col">Total </th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td id="pizname"></td>
-                            <td id="pizsize"></td>
-                            <td id="pizcrust"></td>
-                            <td id="piztopping"></td>
-                            <td id="total"></td>
-                          </tr>
-                        </tbody>
-                      </table>
-                  
-                      <p id="piztotal"></p>
-                      <p id="totalcash"></p>                      
-                      <p id="lefinalesms"></p>
-                    </div>
-                    <button class="btn btn-secondary  bg-secondary addPizza">Add Pizza</button>
-                    <button class="btn btn-secondary bg-secondary " id="checkout">Checkout</button><br><br>
-                    <button class="btn btn-secondary deliver bg-secondary">Have your pizza delivered?</button>
-                  </div>
-                  <br>
-                  
-                  <div class="delivery">
-                    <p><strong>Delivery fee is Kshs. 200</strong> </p>
-                    <form style="border: 1px solid rgba(0, 0, 0, 0.287);padding: 3%;border-radius: 0.2rem;" action="" id="form">
-                      <div class="form-group">
-                        
-                        <p>Enter your details</p>
-                        <input type="text" id="name" class="form-control mb-3" placeholder="your name">
-                        <input type="number" id="phone" class="form-control mb-3" placeholder="phone number">
-                        <input type="text" id="location" class="form-control mb-3" placeholder="location of delivery">
-                        <button class="btn btn-secondary bg-secondary " id="final-order">Complete Your Order</button>
-                      </div>
+                  <h4>Your order has been received succesfully and is under process. Receive package after 20mins at the provided location.</h4>
+                  <div class="location text-center">
+                    <form action="">
+                    <input type="text" size="" placeholder="Enter your name" required />
+                    <input type="number" size="" placeholder="Enter phone number" required />
+                    <input id="loc" type="text" size="" placeholder="Provide delivery location" required /><br><br>
+                    <button class="btn btn-secondary complete" onclick="formValidate()" type="submit">Complete Your Order</button>
                     </form>
                   </div>
-
                 </div>
+                <br>
+                <button class="btn btn-secondary yes" type="submit">Home Delivery?</button>
               </div>
+              
+                
+              
+            </div>
             </div>
 
         </div>
@@ -311,5 +291,6 @@
 
       </div>
     </div>
+    
   </body>
 </html>
