@@ -7,7 +7,7 @@ $uDo Le Pizza is a website that showcases the epic pizza bakes from $uDo Le Pizz
  
 
 ### $uDo Le Pizza
-![$uDo ](media/readme.png)
+![$uDo ](media/reeeed.png)
 
 ### Setup and installation requirements
 - ` git clone https://github.com/DjCooGie/Su.Do-Le-Pizza.git `
@@ -45,7 +45,7 @@ $uDo Le Pizza is a website that showcases the epic pizza bakes from $uDo Le Pizz
 ### Live link: [https://djcoogie.github.io/Su.Do-Le-Pizza/](https://djcoogie.github.io/Su.Do-Le-Pizza/)
 
 ### Bugs
-No known bugs
+On clicking the ` Coomplete Your Order ` button, the order is submitted without the user entering any detail in the form
 
 ### Support and contact details
 Incase of any questions, problems ideas concerning the website, feel free to reach out to me via email.(evansonchagwa01@gmail.com)
