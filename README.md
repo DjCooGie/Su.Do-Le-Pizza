@@ -3,7 +3,7 @@
 $uDo Le Pizza is a website that showcases the epic pizza bakes from $uDo Le Pizza shop and allows the user to do an online order by choosing the size of a pizza, the crust, and the toppings.
 
 ## Author
-**Evans Nyambane** 
+**Evans Onchagwa** 
  
 
 ### $uDo Le Pizza
