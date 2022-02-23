@@ -1,6 +1,6 @@
 # _$Le-Pizza_
 
-$uDo Le Pizza is a website that showcases the epic pizza bakes from $uDo Le Pizza shop and allows the user to do an online order by choosing the size of a pizza, the crust, and the toppings.
+$Le-izza is a website that showcases the epic pizza bakes from $uDo Le Pizza shop and allows the user to do an online order by choosing the size of a pizza, the crust, and the toppings.
 
 ## Author
 **Evans Onchagwa** 
@@ -10,8 +10,8 @@ $uDo Le Pizza is a website that showcases the epic pizza bakes from $uDo Le Pizz
 ![$uDo ](media/reeeed.png)
 
 ### Setup and installation requirements
-- ` git clone https://github.com/DjCooGie/Su.Do-Le-Pizza.git `
-- `cd Su.Do-Le-Pizza`
+- ` git clone https://github.com/jusinam/lepizza.git `
+- `cd lepizza`
 - `code .` # (For Visual Studio Code text editor)
 - `atom .` # (for Atom text editor)
 - Click the ` index.html` file to open in on your Browser.
@@ -42,10 +42,10 @@ $uDo Le Pizza is a website that showcases the epic pizza bakes from $uDo Le Pizz
 | Click `complete button` to finish the order process. |
 | A confirmation message displays showing the name of the customer, the location of delivery and the total price after delivery. |
 
-### Live link: [https://djcoogie.github.io/Su.Do-Le-Pizza/](https://jusinam.github.io/Su.Do-Le-Pizza/)
+### Live link: [https://jusinam.github.io/lepizza/](https://jusinam.github.io/lepizza/)
 
 ### Bugs
-On clicking the ` Coomplete Your Order ` button, the order is submitted without the user entering any detail in the form
+On clicking the ` Complete Your Order ` button, the order is submitted without the user entering any detail in the form
 
 ### Support and contact details
 Incase of any questions, problems ideas concerning the website, feel free to reach out to me via email.(evansonchagwa01@gmail.com)
