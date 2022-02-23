@@ -42,7 +42,7 @@ $uDo Le Pizza is a website that showcases the epic pizza bakes from $uDo Le Pizz
 | Click `complete button` to finish the order process. |
 | A confirmation message displays showing the name of the customer, the location of delivery and the total price after delivery. |
 
-### Live link: [https://djcoogie.github.io/Su.Do-Le-Pizza/](https://djcoogie.github.io/Su.Do-Le-Pizza/)
+### Live link: [https://djcoogie.github.io/Su.Do-Le-Pizza/](https://jusinam.github.io/Su.Do-Le-Pizza/)
 
 ### Bugs
 On clicking the ` Coomplete Your Order ` button, the order is submitted without the user entering any detail in the form
