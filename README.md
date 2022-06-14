@@ -1,4 +1,4 @@
-# _$Le-Pizza_
+# _PizzaPIK_
 
 PizzaPIK is a website that showcases the epic pizza bakes from PizzaPIK shop and allows the user to do an online order by choosing the size of a pizza, the crust, and the toppings.
 
