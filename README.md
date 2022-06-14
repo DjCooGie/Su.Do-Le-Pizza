@@ -38,7 +38,7 @@ PizzaPIK is a website that showcases the epic pizza bakes from PizzaPIK shop and
 | Output |
 | ------ |
 | Click `checkout button` to see total price before delivery. |
-| Click `home delivery button` to fill in some details. | 
+| Click `Yes button` to fill in some details. | 
 | Click `complete button` to finish the order process. |
 | A confirmation message displays showing the name of the customer, the location of delivery and the total price after delivery. |
 
