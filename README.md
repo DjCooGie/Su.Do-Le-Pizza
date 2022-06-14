@@ -1,20 +1,20 @@
 # _$Le-Pizza_
 
-$Le-izza is a website that showcases the epic pizza bakes from $uDo Le Pizza shop and allows the user to do an online order by choosing the size of a pizza, the crust, and the toppings.
+PizzaPIK is a website that showcases the epic pizza bakes from PizzaPIK shop and allows the user to do an online order by choosing the size of a pizza, the crust, and the toppings.
 
 ## Author
 **Evans Onchagwa** 
  
 
-### $Le-Pizza
-![$uDo ](media/reeeed.png)
+### PizzaPIK
+![PizzaPIK ](assets/icon/readme.png)
 
 ### Setup and installation requirements
-- ` git clone https://github.com/jusinam/lepizza.git `
-- `cd lepizza`
+- ` git clone https://github.com/jusinam/pizzapik.git `
+- `cd pizzapik`
 - `code .` # (For Visual Studio Code text editor)
 - `atom .` # (for Atom text editor)
-- Click the ` index.html` file to open in on your Browser.
+- Click the ` index.html` file to open it on your Browser.
 
 ### Languages used
 1. JavaScript (jQuery 3.4.1)
@@ -42,16 +42,17 @@ $Le-izza is a website that showcases the epic pizza bakes from $uDo Le Pizza sho
 | Click `complete button` to finish the order process. |
 | A confirmation message displays showing the name of the customer, the location of delivery and the total price after delivery. |
 
-### Live link: [https://jusinam.github.io/lepizza/](https://jusinam.github.io/lepizza/)
+### Live link: [Click here](https://jusinam.github.io/pizzapik/)
 
 ### Bugs
-On clicking the ` Complete Your Order ` button, the order is submitted without the user entering any detail in the form
+On clicking the ` Complete ` button, the order is submitted without the user entering any location detail
 
 ### Support and contact details
-Incase of any questions, problems ideas concerning the website, feel free to reach out to me via email.(evansonchagwa01@gmail.com)
+Incase of any questions, problems or ideas concerning the website, feel free to reach out to me via email.
 
-#### License
+[Send mail](mailto:evansonchagwa01@gmail.com)
+
+### License
 ***MIT LICENSE***
-
 
 Copyright (c) 2019 **Evans Onchagwa**
