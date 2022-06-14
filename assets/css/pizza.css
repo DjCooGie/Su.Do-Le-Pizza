@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Damion&display=swap');
+@import url("../css/bootstrap.css");
+@import url("../css/fonts.css");
+
+
+/******* Entire page *******/
+/*************************/
+
+* {
+  scroll-behavior: smooth;
+}
+
+/*This is the whole boby default style*/
+body{
+	font-family: 'Lora', serif;
+}
+h1,h2,h3,h4,h5,h6,button{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+
+}
+p{
+	font-style: italic;
+	font-size: 16px;
+}
+.section{
+	padding-top: 7%;
+	padding-bottom: 5%;
+	color:#666666;
+}
+.fun-text{
+	font-size: 21px;
+	letter-spacing: 2px;
+}
+h1{
+	font-size: 45px;
+	font-weight: 400;
+}
+h2{
+    font-size: 32px;
+	margin-bottom: 5%;
+}
+h3{
+	font-size: 21px;
+}
+
+.logo-art{
+	font-weight: bolder;
+	font-size: larger;
+}
+
+.white {
+	padding: 1%;
+}
+
+.card-banner {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    background-size: cover;
+    border-radius: 5px;
+	/* padding: 2%; */
+	margin-top: 3%;
+}
+
+.card-banner .card-body {
+    background-size: cover;
+    position: relative;
+    z-index: 10
+}
+
+.card-banner .img-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    mix-blend-mode: multiply;
+    max-width: 100%
+}
+
+.card-banner .overlay {
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+    padding: 1.25rem;
+    color: #fff
+}
+
+.card-banner .overlay.bottom {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+.card-banner .overlay.top {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%
+}
+
+.card-banner .overlay-cover {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%
+}
+
+.card-banner .overlay.left {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute
+}
+
+.card-banner .text-bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 7px 20px;
+    padding-top: 30px;
+    border-radius: 0 0 5px 5px;
+    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
+    color: #fff
+}
+
+/*Menu bar style*/
+.head-body{
+	padding-top: 10vh;
+}
+
+/*Feature section style*/
+.social li{
+    list-style-type: none;
+    display: inline-block;
+}
+.social a{
+    padding: 5px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.social a:hover{
+    color: #6a7480;
+    transition: .5s;
+}
+
+/*Simplest user interface style*/
+/* itemside */
+.itemside {
+    position: relative;
+    display: inline-flex;
+    width: 100%
+}
+
+.itemside .text-wrap {
+    padding-left: 15px;
+    padding-right: 7px
+}
+
+.itemside .img-wrap {
+    position: relative;
+    max-width: 100px;
+    max-height: 100%;
+    border-radius: 5px 0 0 5px
+}
+
+.itemside img {
+    object-fit: contain
+}
+
+.itemside p,
+.itemside .title {
+    margin-bottom: 0.5rem
+}
+
+.footer-icon .social{
+	text-align: center;
+	padding-top: 7px;
+}
+
+.footer-text i{
+	color: #6a7480;
+}
+
+.footer .container .row{
+	padding-top: 3%;
+}
+
+
+
+/*Media Queries*/
+
+@media (min-width: 300px) 
+{
+	.custom-menu{
+		background-color: transparent;
+		border:none;
+	}
+	iframe{
+		height: 200px;
+		width: 280px;
+	}
+	
+	.form-inline .form-control{
+		width: 120px;
+		height: 30px;
+		font-size: 14px;
+	}
+	p{
+		font-style: italic;
+		font-size: 13px;
+	}
+	h1{
+		font-size: 28px;
+	}
+	h2{
+	    font-size: 20px;
+	}
+	h3{
+		font-size: 18px;
+	}
+	.fun-text{
+		letter-spacing: 0px;
+		font-size: 16px;
+	}
+	.craft-btn{
+		margin-bottom: 0px;
+	}
+	.head-items{
+		padding-top: 10vh;
+		padding-bottom: 5vh;
+	}
+	.icon-circle{
+		height: 70px;
+		width: 70px;
+		font-size: 20px;
+		line-height: 70px;
+	}
+	.form-inline .form-control{
+		width: 280px;
+		height: 40px;
+		font-size: 16px;
+	}
+	
+	.footer-text{
+		margin-top: 6px;
+		font-size: 10px;
+	}
+	.footer-social a{
+		padding: 6px;
+	}
+	.footer-social li{
+		margin-right: 2px;
+	}
+}
+
+
+@media (min-width: 600px) 
+{
+	.explore-mindcraft .row{
+		display: table;
+	}
+	iframe{
+		height: 400px;
+		width: 550px;
+	}
+	
+	.form-inline .form-control{
+		width: 420px;
+		height: 40px;
+		font-size: 16px;
+	}
+	p{
+		font-style: italic;
+		font-size: 16px;
+	}
+	h1{
+		font-size: 45px;
+	}
+	h2{
+	    font-size: 32px;
+	}
+	h3{
+		font-size: 21px;
+	}
+	.icon-circle{
+		height: 90px;
+		width: 90px;
+		font-size: 30px;
+		line-height: 90px;
+	}
+	.footer-social a{
+		padding: 10px;
+	}
+	.footer-social li{
+		margin-right: 20px;
+	}
+	.footer-text{
+		margin-top: 18px;
+	}
+	.fun-text{
+		letter-spacing: 1px;
+		font-size: 21px;
+	}
+	.craft-btn{
+		margin-bottom: 30px;
+	}
+	.head-items{
+		padding-top: 10vh;
+		padding-bottom: 5vh;
+	}
+	
+	.footer-text{
+		margin-top: 10px;
+		font-size: 16px;
+	}
+	.footer-social a{
+		padding: 10px;
+	}
+	.footer-social li{
+		margin-right: 20px;
+	}
+}
+
+
+@media (min-width: 950px) 
+{
+	.explore-mindcraft .row [class*="col-"]{
+		display: table-cell;
+		vertical-align: middle;
+		float: none;
+	}
+	iframe{
+		height: 500px;
+		width: 800px;
+	}
+	.head-items{
+		padding-top: 20vh;
+		padding-bottom: 18vh;
+	}
+	.custom-menu{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		transition: 2s;
+	}
+}
+
